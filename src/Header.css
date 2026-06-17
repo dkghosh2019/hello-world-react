@@ -1,0 +1,13 @@
+.main-header {
+    background-color: var(--dark-panel);
+    padding: 25px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+.main-header h2 {
+    color: white;
+    margin: 0;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}

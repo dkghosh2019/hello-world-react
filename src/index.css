@@ -1,0 +1,34 @@
+/* 1. Define custom theme variables for easy style updates */
+
+:root {
+    --bg-color: #f4f6f9;
+    --text-color: #212529;
+    --primary-color: #007bff;
+    --primary-hover: #0056b3;
+    --dark-panel: #282c34;
+}
+
+
+/* 2. Global Reset and Page Layout structure */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    min-height: 100vh;
+}
+
+
+/* 3. Global styles for shared layout elements like links */
+
+nav a {
+    padding: 8px 16px;
+    border-radius: 6px;
+    transition: all 0.2s ease-in-out;
+}
+
+nav a:hover {
+    background-color: rgba(0, 123, 255, 0.1);
+}
